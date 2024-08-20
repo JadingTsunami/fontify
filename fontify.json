@@ -123,5 +123,26 @@
     "shadowcolor": [0, 0, 0],
     "outline": true,
     "outlinecolor": [0, 64, 16]
+},
+{
+    "strings": {
+        "CWILV00": ["MAP 01", "Author 01"],
+        "CWILV01": ["LONGMAP 02: Longer", "Author 02"]
+    },
+    "font": "cwfont.ttf",
+    "fontsize": 16,
+    "fontcolor": [128, 255, 42],
+    "fontmask": "L",
+    "path": "cw",
+    "shadow": false,
+    "shadowcolor": [0, 0, 0],
+    "outline": true,
+    "outlinecolor": [128, 64, 16],
+    "cwilv": true,
+    "cwilv_color": [0, 255, 0],
+    "cwilv_littlefont": "cwlfont.ttf",
+    "cwilv_littlefontsize": 10,
+    "cwilv_outline": true,
+    "cwilv_outlinecolor": [0,0,0]
 }
 ]
