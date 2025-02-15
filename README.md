@@ -19,4 +19,9 @@ Jobs can have these fields:
 * `shadowcolor` (optional): If supplied, the drop shadow color. Else half the primary text color is used.
 * `outline` (optional): true/false - whether or not to outline the text with a thin line.
 * `outlinecolor`: If supplied, the outline color. Else black.
-
+* `cwilv` (optional): true/false - if true, the job will generate `CWILVxx` graphics with a large title and a smaller author name below. The following fields become required and specify how to render a small font with the author's name below the main string.
+        * `cwilv_color`: RGB color tuple. Used for the little font with the author's name in it.
+        * `cwilv_littlefont`: Path to a truetype font to use for the little font with the author's name.
+        * `cwilv_littlefontsize`: Size of the author font.
+        * `cwilv_outline`: Outline of the author font.
+        * `cwilv_outlinecolor`: Outline color for the author font.
